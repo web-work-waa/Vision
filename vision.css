@@ -1,0 +1,185 @@
+*{
+    display: border-box;
+    padding-left: 20px;
+    color: rgb(0, 0, 0, .1);
+    background-color: black;
+    background-image: url(https://res.cloudinary.com/codier/image/upload/v1593127511/z9ve8x6amsczda4muiet.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+      
+}
+
+
+header{
+    font-size: 60px;
+    color: rgb(241, 240, 236);
+    text-align: left;
+}
+
+.navbar{
+    color:rgb(241, 240, 236);
+    display: block;
+    overflow: hidden;
+   position: fixed;
+   top: 0;
+   width: 100%;
+
+}
+
+.navbar nav{
+    list-style-type: none;
+    display: block ;
+    background-color: brown;
+    float: right;   
+    width: auto;
+   
+
+}
+
+.navbar ul {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+   
+
+
+}
+
+.navbar li{
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    
+  
+}
+
+
+.avenger{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 600px;
+    padding-top: 30px;
+    text-align: center;
+   
+   
+}
+
+
+#avenger{
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-family: 'Bungee Outline';    padding-left: 10px;
+    text-align: center;
+}
+
+#scroll{
+    text-align: center;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 20px;
+    display: inline;
+  
+}
+
+
+
+.about{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+    grid-gap: 30px 20px; 
+    
+    
+
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:20px;
+    margin:auto;
+    
+
+}
+
+p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px;
+    margin: auto;
+    line-height: 1.6;
+    background-color:rgb(170, 170, 170, .9);
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    
+}
+   
+
+
+
+.vision1{
+    height:600px;
+    width: auto;
+    padding-bottom: 30px;
+    
+}
+
+.vision2{
+    height: 600px;
+    width: auto;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-left:80px ;
+    padding-bottom: 30px;
+   
+}
+
+.vision3{
+    height: 600px;
+    width: auto;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+   
+}
+
+.eye{
+    height: 500px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+.grid{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px 20px; 
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.box{
+    height: 400px;
+    width: auto;
+
+}
+
+footer{
+  color: greenyellow;
+}
+ footer a{
+   color: greenyellow;
+ }
